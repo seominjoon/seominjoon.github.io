@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "This is a test"
+date:   2015-08-20 11:42:03
+categories: test
+---
+
+This is just a test.
+
+Okay, here is a link to my [homepage][homepage].
+
+[homepage]:     http://seominjoon.github.io

@@ -1,0 +1,17 @@
+# Site settings
+title: Minjoon Seo
+name: Minjoon Seo
+korean_name: 서민준
+email: minjoon@cs.washington.edu
+occupation: PhD Student
+school: University of Washington
+department: Computer Science & Engineering
+description: > # this means to ignore newlines until "baseurl:"
+  Personal homepage of Minjoon Seo, UW CSE PhD student
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://seominjoon.github.io" # the base hostname & protocol for your site
+twitter_username: seo_minjoon
+github_username:  seominjoon
+
+# Build settings
+markdown: kramdown

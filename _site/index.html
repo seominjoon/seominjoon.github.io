@@ -2,23 +2,21 @@
 <html>
 
   <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="css/bootstrap.theme.min.css" rel="stylesheet" media="screen">
+  <link href="css/my-style.css" rel="stylesheet" media="screen">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
   <title>Minjoon Seo</title>
-  <meta name="description" content="Personal homepage of Minjoon Seo, UW CSE PhD student
-">
-
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://seominjoon.github.io/">
-  <link rel="alternate" type="application/rss+xml" title="Minjoon Seo" href="http://seominjoon.github.io/feed.xml" />
 </head>
 
 
   <body>
 
-    <header class="site-header">
+    <!--
+<header class="site-header">
 
   <div class="wrapper">
 
@@ -47,19 +45,164 @@
         
           
         
-          
-        
       </div>
     </nav>
 
   </div>
 
 </header>
+-->
+<header></header>
 
+    <div class="container">
+      <div>
+  <h1>
+    Minjoon Seo<small>(서민준)</small>
+</h1>
+<div class="row">
+    <div class="col-sm-6">
+        <p>
+            PhD Student<br>
+            Computer Science & Engineering<br>
+            University of Washington<br>
+        </p>
+        <p>
+            <a href="mailto:minjoon@cs.washington.edu">minjoon@cs.washington.edu</a><br>
+            <a href="assets/cv.pdf">[CV]</a><br>
+        </p>
+        <hr>
+        <p>
+            <font size="3">
+                I am a PhD student studying computer science in University of Washington.
+                I am interested in artificial intelligence, NLP and computer vision.
+                I am advised by
+                <a href="http://ssli.ee.washington.edu/~hannaneh/">Hannaneh Hajishirzi</a>,
+                <a href="http://homes.cs.washington.edu/~ali/">Ali Farhadi</a>, and
+                <a href="https://homes.cs.washington.edu/~etzioni/">Oren Etzioni</a>.
+                I received BS in electrical engineering & computer science from UC Berkeley, where
+                I was shortly advised by
+                <a href="http://www.cs.berkeley.edu/~russell/">Stuart Russell</a>.
+                Between Berkeley and UW, I worked at Oracle as a software engineer.
+            </font>
+        </p>
+    </div>
+    <div class="col-sm-6" align="middle">
+        <img src="assets/min_joon_seo-med.png" class="img-responsive img-rounded" alt="Min Joon Seo, UW CSE">
+    </div>
 
-    <div class="page-content">
-      <div class="wrapper">
-        <div class="home">
+</div>
+
+</div>
+<hr>
+<div>
+  <h2>
+    Publications
+    <small><font size="2">
+        <a href="http://scholar.google.com/citations?user=zYze5fIAAAAJ">Google Scholar Author Page</a>
+    </font></small>
+</h2>
+<div class="panel panel-default">
+    <div class="panel-heading"><h3 class="panel-title">Conferences &amp; Journals</h3></div>
+    <div class="panel-body">
+        <ul class="list-group">
+            <li class="list-group-item">
+                <p>
+                    <a name="geos" href="assets/papers/geosolver/geos.pdf">Solving geometry problems: combining text and diagram interpretation</a><br>
+                    <b>Minjoon Seo</b>, Hannaneh Hajishirzi, Ali Farhadi, Oren Etzioni, and Clint Malcolm<br>
+                    In: Proceedings of EMNLP. 2015.
+                </p>
+            </li>
+            <li class="list-group-item">
+                <p>
+                    <a name="bilicam" href="assets/papers/etc/bilicam.pdf">BiliCam: using mobile phones to monitor newborn jaundice</a><br>
+                    Lilian de Greef, Mayank Goel, <b>Minjoon Seo</b>, Eric Larson, James W. Stout, James A. Taylor, Shwetak N. Patel<br>
+                    In: Proceedings of UbiComp. 2014.
+                </p>
+            </li>
+            <li class="list-group-item">
+                <p>
+                    <a name="diagram" href="assets/papers/geosolver/diagram.pdf">Diagram understanding in geometry questions</a><br>
+                    <b>Minjoon Seo</b>, Hannaneh Hajishirzi, Ali Farhadi, and Oren Etzioni<br>
+                    In: Proceedings of AAAI. 2014.
+                </p>
+            </li>
+            <li class="list-group-item">
+                <p>
+                    <a name="sigvisa" href="assets/papers/etc/sigvisa.pdf">Progress in signal-based bayesian monitoring</a><br>
+                    David A. Moore, Kevin Mayeda, Steve Myers, <b>Minjoon Seo</b>, and Stuart Russell<br>
+                    In: Proceedings of the monitoring research review: ground-based nuclear explosion
+                    monitoring technologies. 2012.
+                </p>
+            </li>
+        </ul>
+    </div>
+</div>
+
+</div>
+<hr>
+<div>
+  <h2>Projects</h2>
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">Geometry Question Solver <small>2013-present</small></h3>
+    </div>
+    <div class="panel-body">
+        <p>
+            The goal of this project is to automatically understand and solve
+            high school geometry questions.
+            It is part of
+            <a href="http://allenai.org/euclid.html">Project Euclid</a> by
+            <a href="http://allenai.org">Allen Institute for AI</a>.
+        </p>
+        <p>
+            Papers:<br>
+            <a href="#geos">Solving geometry problems: combining text and diagram interpretation</a><br>
+            <a href="#diagram">Diagram understanding in geometry questions</a>
+        </p>
+        <p>
+            Source code is available
+            <a href="https://github.com/seominjoon/geosolver">here</a>. <br>
+            Demo is available
+            <a href="http://trusty.cs.washington.edu:9239/vpsel">here</a>. <br>
+            Tutorial is coming soon!
+        </p>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">BiliCam <small>2013-2014</small></h3>
+    </div>
+    <div class="panel-body">
+        <p>
+            The goal of this project is to detect the Bilirubin level in new born babies
+            using smartphone camera.
+            A high level of Bilirubin can be life-threatening, while traditional medical device for
+            measuring the level is often very expensive and thus available only in big hospitals.
+            I was officially involved during Sept. 2013 ~ March 2014 but I am no more contributing to the project.
+        </p>
+        <p>
+            Please refer to the project page for more information:<br>
+            <a href="http://bilicam.com">http://bilicam.com</a>
+        </p>
+    </div>
+</div>
+<hr>
+<div>
+    <h2>Personal</h2>
+    <p>
+        I enjoy bouldering and playing drum.
+        I love trying out new restaurants with my wonderful girlfriend.
+    </p>
+</div>
+
+</div>
+
+<hr>
+<small>Last updated: Aug. 27, 2015 (pub updated)</small>
+
+<!--
+<div class="home">
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
@@ -67,7 +210,7 @@
         <ul class="contact-list">
           <li>PhD Student</li>
           <li>Computer Science & Engineering</li>
-          <li>University of Washington</li>
+          <li></li>
           <li><a href="mailto:minjoon@cs.washington.edu">minjoon@cs.washington.edu</a></li>
         </ul>
         <ul class="social-media-list">
@@ -109,14 +252,10 @@
   </div>
 
 </div>
-
-      </div>
+-->
     </div>
 
-    <footer class="site-footer">
-
-</footer>
-
+    <footer></footer>
 
   </body>
 

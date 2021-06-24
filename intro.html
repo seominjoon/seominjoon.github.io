@@ -5,11 +5,12 @@
     <div class="col-sm-6">
         <p>
             {{ site.occupation }}<br>
-            {{ site.employer }}<br>
+            {{ site.employer }} {{ site.department }}<br>
+            {{ site.office }}<br>
         </p>
         <p>
-            <a href="mailto:minjoon@kaist.ac.kr">minjoon@kaist.ac.kr</a><br>
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a> (permanent)<br>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a><br>
+            <a href="mailto:{{ site.gmail }}">{{ site.gmail }}</a> (permanent)<br>
             [<a href="https://drive.google.com/open?id=1aTlNDL53qIUQFdlWf-F5aN4VImYwpsjX">CV</a>]
             [<a href="https://www.semanticscholar.org/author/Minjoon-Seo/4418074">Semantic Scholar</a>]
             [<a href="https://scholar.google.com/citations?user=zYze5fIAAAAJ">Google Scholar</a>]

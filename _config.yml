@@ -7,9 +7,9 @@ gmail: seominjoon@gmail.com
 occupation: Assistant Professor
 employer: KAIST
 office: Seoul Campus Building 9 Suite 202
-department: Graduate School of AI
+department: Kim Jaechul Graduate School of AI
 description: > # this means to ignore newlines until "baseurl:"
-  Personal website of Minjoon Seo, KAIST Assistant Professor
+  Minjoon Seo, Assistant Professor at KAIST
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://seominjoon.github.io" # the base hostname & protocol for your site
 twitter_username: seo_minjoon
